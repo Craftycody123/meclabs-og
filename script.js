@@ -1,3 +1,13 @@
+function registerEvent() {
+    window.open("https://forms.gle/ySnYSY8vhbUZbRVB9");
+}
+function registerTech(){
+    window.open("https://forms.gle/CjsDWEaQrLzDdfTc6")
+}
+function registerTreasurehunt(){
+    window.open("https://forms.gle/VxnVeNSzbxcMDXmz6")
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     const registerEvent = (eventName) => {
         alert(`You have successfully registered for ${eventName}!`);

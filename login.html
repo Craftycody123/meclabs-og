@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm" action="http://localhost:3000/login" method="POST">
+            <!-- Username Input -->
+            <input type="text" id="loginUsername" name="username" placeholder="Username" required>
+            
+            <!-- Password Input -->
+            <input type="password" id="loginPassword" name="password" placeholder="Password" required>
+            
+            <!-- Submit Button -->
+            <button type="submit">Login</button>
+            
+            <!-- Link to Registration -->
+            <p>Don't have an account? <a href="register.html">Register</a></p>
+        </form>
+    </div>
+
+</body>
+</html>

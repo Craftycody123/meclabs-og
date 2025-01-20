@@ -1,0 +1,234 @@
+body {
+    font-style:normal;
+    font-family:Times New Roman;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logomain{
+    height:100% ;
+    width: 10%;
+    padding: 0;
+    margin-right: 5px;
+    float: left;
+    border-radius: 50%;
+
+
+
+}
+
+
+header .logo h1 {
+    margin: 0;
+
+}
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+.login {
+    background-color:#ddd;
+    height: 25px;
+    width: 65px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3.5px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: black
+}
+
+h1{
+    color:floralwhite;
+    font-weight:700;
+    text-align:right;
+    padding:10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+
+}
+ul li{
+     list-style: none;
+}
+ul li a{
+    color: #f2f2f2;
+}
+
+/* Homepage Section */
+.homepage {
+    padding: 2rem; 
+    text-align:center;
+    background-image:linear-gradient(#999999,#bfbfbf);
+    
+}
+
+.homepage h2 {
+    font-size:40px;
+    color: #333;
+}
+
+.homepage p {
+    color: #555;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+/* Events Section */
+.events {
+    padding: 1rem;
+    background-image:linear-gradient(#bfbfbf,#cccccc,#e6e6e6);
+    text-align: center;
+}
+
+.events h2 {
+    font-size: 30px;
+}
+
+.event-list {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.event-item {
+    background-color: #8c8c8c;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 45%;
+    text-align: left;
+    background-image:linear-gradient(#b3b3b3,#bfbfbf);
+}
+
+.event-item h3 {
+    margin-top: 0;
+}
+
+.event-item button {
+    background-color: #333333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.event-item button:hover {
+    background-color: #555;
+}
+
+/* Calendar Section */
+.calendar {
+    background-color: #dfecec;
+    padding: 1rem;
+    text-align: center;  background-image:linear-gradient(#e6e6e6,#f2f2f2);
+}
+.calendar h2{
+    font-size:30px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #dfecec;
+    padding: 1rem;
+    text-align: center;  background-image:linear-gradient(#f2f2f2,#ffffff);
+}
+
+.contact h2 {
+    font-size:30px;
+    font-weight:bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+   
+}
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px ;
+    width: fit-content;
+}
+
+.calendar-header {
+    font-size:large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+
+.calendar-table {
+    border-collapse:inherit;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+
+
+.calendar-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+}
+
+.calendar-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.empty {
+    background-color: #f9f9f9;
+}
+
+.event-day {
+    background-color: #bfbfbf;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.event-day:hover {
+    background-color: #e6e6e6;
+}
